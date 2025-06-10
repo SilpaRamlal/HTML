@@ -4,20 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(155, 232, 186);
+            padding: 50px;
+            align-items: center;
+        }
+        .navbar1 h2{
+            color:white;
+        }
+        .navbar2 ul{
+            list-style-type: none;
+            display: flex;
+            gap: 50px;
+        }
+        .navbar2 ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .main{
+            display: flex;
+            justify-content: space-between;
+          
+            align-items: center;
+            /* background-color: aqua; */
+          
+        }
+        .main1 h1{
+            color: green;
+            font-size: 50px;
+
+            
+        }
+        .main3 h2{
+            text-align: center;
+        }
+        .main1 button{
+            width: 100px;
+            border-radius: 20px;
+            border: none;
+            padding: 5px;
+        }
+    </style>
    
 </head>
 <body>
-    <div style="display: flex;justify-content: space-around;background-color: rgb(155, 232, 186);">
-        <div>
+    <div class="navbar">
+        <div class="navbar1">
             <h2>Landing Page</h2>
         </div>
-        <div>
-            <ul style="list-style-type: none;display: flex;">
-                <li>Home</li>
-                <li>About</li>
-                <li>Sign Up</li>
+        <div class="navbar2">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Sign Up</a></li>
             </ul>
         </div>
+    </div>
+    <div class="main">
+        <div class="main1">
+            <h1>Discover The World of Barbie</h1>
+            <a href=""><button>Explore</button></a>
+        </div>
+        <div>
+            <img src="leaf-8483401_640.jpg" alt="" height="400px" width="400px" style="padding: 50px;">
+        </div>
+        
+    </div>
+    <div class="main3">
+        <h2>Barbie</h2>
+    </div>
+    <div>
+        
     </div>
     
 </body>
@@ -32,15 +95,3 @@
 
 
 
-<!-- <div style="display: flex;justify-content: space-around;background-color: green;">
-    <div>
-        <h1>landing</h1>
-    </div>
-    <div>
-        <ul style="list-style-type: none;display: flex;">
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-        </ul>
-    </div>
-</div> -->
